@@ -37,9 +37,19 @@
   font-size: 18px;
   line-height: 28px;
   margin: 25px;
+  text-align: center;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
+}
+
+.nav-link {
+  color: #E73462;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #F8BECE;
 }
