@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="shortcut icon" href="./images/cherry-blossom.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./images/cherry-blossom.svg" type="image/x-icon"/>
     <link rel="stylesheet" href="style/style.css" type="text/css"/>
 
     <title>Nicole Zonnenberg</title>
@@ -19,14 +19,23 @@
             My name is <strong>Nicole Zonnenberg</strong>. I am a Software Engineer. I especially like working with CSS, JavaScript, and React.js.
         </div>
     </section>
-    <section id="contact">
-        <a href="https://dev.to/nzonnenberg"><img src="images/devto.svg" alt="dev community"></a>
+    <section class="contact">
         <a href="https://github.com/Sun-Mountain"><img src="images/github_social.svg" alt="github"></a>
-        <a href="https://twitter.com/NZonnenberg"><img src="images/twitter_social.svg" alt="twitter"></a><br />
+        <a href="https://dev.to/nzonnenberg"><img src="images/devto.svg" alt="dev community"></a>
+        <a href="https://twitter.com/NZonnenberg"><img src="images/twitter_social.svg" alt="twitter"></a>
     </section>
+        <div id="email"><a href="mailto:npz.dev@gmail.com">npz.dev@gmail.com</a></div>
+        <div class="border"></div>
+
+    <section id="writings">
+        <div><h2>Writings</h2></div>
+        <a href="https://dev.to/nzonnenberg/basic-color-theory-for-web-developers-15a0">Basic Color Theory for Web Developers</a>
+    </section>
+
         <div class="border"></div>
     <section id="projects">
         <div><h2>Projects</h2></div>
+
         <div class="project-title">
             Periodic Table Flashcards
         </div>
@@ -44,6 +53,62 @@
             <span>CSS, Node.js, React.js</span>
             <p>A react app to quiz yourself on element names and symbols from the periodic table of elements.</p>
         </div>
+
+        <div class="project-border"></div>
+
+        <div class="project-title">
+                Circuit App
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <div class="preview">
+                    <img src="images/circuit.png" alt="Circuit App">
+                </div>
+                <div class="overlay-details">
+                    <a href="http://circuitapp.surge.sh/" target='_blank'>Website</a><br />
+                    <a href="https://github.com/Sun-Mountain/circuit_frontend" target='_blank'>GitHub Repo</a>
+                </div>
+            </div>
+            <div class="project-details">
+                <span>React.js, Python, Django, Node.js</span>
+                <p>A full-stack application where users can create a circuit, organize their workouts, and run a count down timer that will prompt the users when to switch their exercises.
+                        Work In Progress!</p>
+            </div>
+
+            <div class="project-border"></div>
+    
+            <div class="project-title">
+                Tower of Hanoi
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <div class="preview">
+                    <img src="images/hanoi.png" alt="Tower of Hanoi">
+                </div>
+                <div class="overlay-details">
+                    <a href="https://sun-mountain.io/hanoi_game/" target='_blank'>Website</a><br />
+                    <a href="https://github.com/Sun-Mountain/MERN_EventCalendar_FrontEnd/tree/master//hanoi_game" target='_blank'>GitHub Repo</a>
+                </div>
+            </div>
+            <div class="project-details">
+                <span>HTML, SASS, jQuery</span>
+                <p>A working web app of the game Tower of Hanoi. Users can increase or decrease difficulty by increasing or decreasing the number of discs in play.</p>
+            </div>
+
+            <div class="project-border"></div>
+
+            <section id="footer">
+                More on <a href="https://github.com/Sun-Mountain/">GitHub</a>.
+
+                <div class="border"></div>
+                <div class="contact">
+                    <a href="https://github.com/Sun-Mountain"><img src="images/github_social.svg" alt="github"></a>
+                    <a href="https://dev.to/nzonnenberg"><img src="images/devto.svg" alt="dev community"></a>
+                    <a href="https://twitter.com/NZonnenberg"><img src="images/twitter_social.svg" alt="twitter"></a>
+                </div>
+
+                <div id="email"><a href="mailto:npz.dev@gmail.com">npz.dev@gmail.com</a></div>
+            </section>
     </section>
 </body>
 </html>

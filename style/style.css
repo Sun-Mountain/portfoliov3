@@ -1,8 +1,13 @@
 body {
     color: #444444;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px auto;
+    margin: 25px auto;
     max-width: 700px;
+}
+
+a {
+    color: #E73462;
+    text-decoration: none;
 }
 
 a:hover {
@@ -15,17 +20,27 @@ a:hover {
     max-width: 25%;
 }
 
-#contact {
+.contact {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 50%;
 }
 
-#contact img {
+.contact img {
     height: 40px;
     object-fit: cover;
     padding: 0 25px;
+}
+
+#email {
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+#footer {
+    margin: 20px 0 0 0;
+    text-align: center;
 }
 
 #greeting {
@@ -98,12 +113,14 @@ nav {
     margin: 25px 0;
 }
 
+#writings {
+    text-align: center;
+}
 
 /* Project Overlay */
 
 .project {
     margin: 0 auto;
-    padding: 10px 0;
     position: relative;
     max-width: 400px;
 }
@@ -115,8 +132,6 @@ nav {
 }
 
 .overlay {
-    height: 198px;
-
     background: rgba(0,0,0,0.8);
     position: absolute;
     top: 0;
@@ -163,10 +178,17 @@ nav {
     font-size: 1.5em;
 }
 
+.project-border {
+    border: 1px solid #000000;
+    margin: 25px auto;
+    max-width: 10%;
+}
+
 .project-title {
     font-size: 20px;
     font-weight: 600;
-    margin: 0 auto;
+    margin: auto;
+    padding: 15px 0 10px;
     text-align: center;
 }
 
@@ -179,7 +201,7 @@ nav {
 
 .project-details span {
     font-size: 18px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .project-details p {
