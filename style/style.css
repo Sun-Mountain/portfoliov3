@@ -5,6 +5,23 @@ body {
     max-width: 700px;
 }
 
+a:hover {
+    opacity: .4;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#contact img {
+    height: 40px;
+    object-fit: cover;
+}
+
 #greeting {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
@@ -40,6 +57,17 @@ body {
     text-align: center;
 }
 
+#mail-link {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#mail-link a {
+    color: #EC8022;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -54,6 +82,9 @@ nav {
     color: #F8BECE;
 }
 
+#projects {
+    margin: 25px 0;
+}
 
 
 /* Project Overlay */
@@ -102,10 +133,12 @@ nav {
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 
+    text-align: center;
 }
 
 .overlay-details a {
     color: #FFFFFF;
+    font-size: 18px;
     text-transform: lowercase;
     text-decoration: none;
 }
@@ -117,9 +150,8 @@ nav {
 }
 
 .project-title {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    font-weight: 525;
+    font-weight: 600;
     margin: 0 auto;
     text-align: center;
 }
@@ -141,8 +173,4 @@ nav {
     margin: 0 auto;
     padding: 0 10px;
     width: 600px;
-}
-
-.border {
-    margin: 25px;
 }
